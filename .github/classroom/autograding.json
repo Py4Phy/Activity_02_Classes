@@ -1,0 +1,64 @@
+{
+  "tests": [
+    {
+      "name": "Test: Problem 1ab / sphere class",
+      "setup": "sudo -H pip3 install pytest numpy",
+      "run": "pytest --tb=short tests/problem_1ab/test_sphere_class.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 6
+    },
+    {
+      "name": "Test: Problem 1ab / final ball position",
+      "setup": "sudo -H pip3 install pytest numpy",
+      "run": "pytest --tb=short tests/problem_1ab/test_final_ball_position.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 4
+    },
+    {
+      "name": "Test: Problem 1ab / ball volume",
+      "setup": "sudo -H pip3 install pytest numpy",
+      "run": "pytest --tb=line tests/problem_1ab/test_ball_volume.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Test: Problem 1c / instances independence",
+      "setup": "sudo -H pip3 install pytest numpy",
+      "run": "pytest --tb=short tests/problem_1c/test_instances_independence.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 4
+    },
+    {
+      "name": "Test: Problem 1d / density earth",
+      "setup": "sudo -H pip3 install pytest numpy",
+      "run": "pytest --tb=short tests/problem_1d/test_density_earth.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 4
+    },
+    {
+      "name": "Test: Problem 1d / planet class",
+      "setup": "sudo -H pip3 install pytest numpy",
+      "run": "pytest --tb=short tests/problem_1d/test_planet_class.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 6
+    }
+  ]
+}
