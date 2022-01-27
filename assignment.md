@@ -39,7 +39,7 @@ After each step, print the position of the ball.
 
 ### Independence: A balloon is not a ball
 
-Create a file `ball_oons.py` in which you
+Create a file `ball_oon.py` in which you
 
 1. create a ball (as a `Sphere`) at position `(0, 0, 10)` with radius
    2 (variable `ball`),
